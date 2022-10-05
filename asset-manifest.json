@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pikachu.git/static/css/main.68bc2ddc.css",
+    "main.js": "/pikachu.git/static/js/main.fc7f1ffd.js",
+    "static/js/787.e242c95f.chunk.js": "/pikachu.git/static/js/787.e242c95f.chunk.js",
+    "index.html": "/pikachu.git/index.html",
+    "main.68bc2ddc.css.map": "/pikachu.git/static/css/main.68bc2ddc.css.map",
+    "main.fc7f1ffd.js.map": "/pikachu.git/static/js/main.fc7f1ffd.js.map",
+    "787.e242c95f.chunk.js.map": "/pikachu.git/static/js/787.e242c95f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68bc2ddc.css",
+    "static/js/main.fc7f1ffd.js"
+  ]
+}
