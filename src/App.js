@@ -38,7 +38,7 @@ function App() {
     <div className='title'>
     <div className='pokeball'>
     <h1>PokeDex</h1>
-    <img src="https://img.icons8.com/color/2x/pokeball.png"/>
+    <img src="https://img.icons8.com/color/2x/pokeball.png" alt="loading"/>
     </div>
    
     <input type="text" onChange={event => {setPokemonName(event.target.value)}}></input>
@@ -65,7 +65,7 @@ function App() {
                 
                 }}>
              <Typography><h1>{pokemon.name}</h1></Typography>
-             <CardMedia><img src={pokemon.img}/></CardMedia>
+             <CardMedia><img src={pokemon.img} alt="loading"/></CardMedia>
              <Typography><h3>Type: {pokemon.type}</h3></Typography>
              <Typography><h3>Hp: {pokemon.hp}</h3></Typography>
              <Typography><h3>Attack: {pokemon.attack}</h3></Typography>
