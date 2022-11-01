@@ -1,0 +1,75 @@
+ .App {
+  display: flex;
+  justify-content: center;
+  font-family: arial;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ body{
+  background-color: #ebe8fb;
+ }
+
+ .title {
+  background-color:    #bef0ff ;            
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  color: #1ae1f7;
+  flex-direction: column;
+ }
+
+ .title input {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-left: 10px;
+  border: none;
+ }
+ 
+ .title button {
+  width: 180px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-top: 30px;
+  padding-left: 10px;
+  background-color: #fc7773;
+  cursor: pointer;
+  border: none;
+ }
+ .Display {
+  /* display: flex;
+  align-items: center; 
+  flex-direction: column;
+  cursor: pointer; */
+ }
+.display h3,h4{
+  margin: 5px;
+}
+.display img {
+  width: 1000px;
+  
+  
+}
+
+.display:hover{
+  color: rgba(128,128,128,0.6);
+}
+
+.pokeball {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+}
+
+.pokemon img {
+  width: 50%;
+  height: 50%;
+}
+
+.title input {
+  margin-top: 30px;
+}
